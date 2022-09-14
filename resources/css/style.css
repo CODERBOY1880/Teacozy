@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    font-family: Arial, 'Helvetica', sans-serif;
+    background-color: black;
+    text-align: center;
+}
+/* header */
+
+#flex{
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+nav{
+   
+}
+#flex img{
+    margin-left: 10px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 15px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+/* mission */
+#midtext{
+    margin-top: -500px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: 10px;
+   
+}
+.month{
+    padding: 40px;
+    text-align: center;
+}
+.month img{
+    height: 200px;
+    width: 300px;
+}
+/* month */
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -5px;
+}
+#grid div {
+    margin: 10px;
+}
+#grid div p{
+    margin-top: 10px;
+}
+.mid{
+    margin-left: 200px;
+}
+#location img{
+    height: 700px;
+    width: 1200px;
+   
+}
+#location h2{
+    margin-top: -600px;
+}
+.loactions{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    @media screen {min-width: ;
+        
+    }
+    
+    
+}
+.loactions div p{
+    padding: 10px;
+   
+   
+}
+.loactions div{
+    margin: 40px;
+    padding: 15px;
+    width: 300px;
+    margin-left: 30px;
+}
+footer{
+    margin-top: 350px;
+}
+footer h5{
+    margin: 30px;
+}
+.left{
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
